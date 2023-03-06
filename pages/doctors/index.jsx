@@ -1,5 +1,6 @@
 import AllPageHero from "@/components/AllPageHero";
 import Image from "next/image";
+import Link from "next/link";
 import team1 from "../../public/asstes/images/team-1.jpg";
 import team2 from "../../public/asstes/images/team-2.jpg";
 import team3 from "../../public/asstes/images/team-3.jpg";
@@ -8,7 +9,7 @@ import team5 from "../../public/asstes/images/team-5.jpg";
 const index = () => {
   return (
     <>
-      <AllPageHero home={"Home"} />
+     <AllPageHero home={"Home"}  data={`Our Doctors`}/>
       {/* Team Start */}
       <div className="container-fluid py-5">
         <div className="container">
@@ -101,20 +102,20 @@ const index = () => {
                             style={{ width: 300 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square mx-1"
-                              href="doctors-appointment.html"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
-                            <a
+                           </Link>
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="./doctors-details.html"
+                              href="/doctorDetails"
                             >
                               Details
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -185,13 +186,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -262,13 +263,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -339,13 +340,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -416,13 +417,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
                               href="#"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -515,13 +516,13 @@ const index = () => {
                               style={{ width: 200 }}
                               className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                             >
-                              <a
+                             <Link
                                 style={{ width: 100 }}
                                 className="btn btn-primary btn-square"
-                                href="#"
+                                href="/doctorAppointment#"
                               >
                                 Book
-                              </a>
+                             </Link>
                             </div>
                           </div>
                           <div>
@@ -592,13 +593,13 @@ const index = () => {
                               style={{ width: 200 }}
                               className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                             >
-                              <a
+                             <Link
                                 style={{ width: 100 }}
                                 className="btn btn-primary btn-square"
-                                href="#"
+                                href="/doctorAppointment"
                               >
                                 Book
-                              </a>
+                             </Link>
                             </div>
                           </div>
                           <div>
@@ -669,13 +670,13 @@ const index = () => {
                               style={{ width: 200 }}
                               className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                             >
-                              <a
+                             <Link
                                 style={{ width: 100 }}
                                 className="btn btn-primary btn-square"
-                                href="#"
+                                href="/doctorAppointment"
                               >
                                 Book
-                              </a>
+                             </Link>
                             </div>
                           </div>
                           <div>
@@ -746,13 +747,13 @@ const index = () => {
                               style={{ width: 200 }}
                               className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                             >
-                              <a
+                             <Link
                                 style={{ width: 100 }}
                                 className="btn btn-primary btn-square"
-                                href="#"
+                                href="/doctorAppointment"
                               >
                                 Book
-                              </a>
+                             </Link>
                             </div>
                           </div>
                           <div>
@@ -823,13 +824,13 @@ const index = () => {
                               style={{ width: 200 }}
                               className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                             >
-                              <a
+                             <Link
                                 style={{ width: 100 }}
                                 className="btn btn-primary btn-square"
-                                href="#"
+                                href="/doctorAppointment"
                               >
                                 Book
-                              </a>
+                             </Link>
                             </div>
                           </div>
                           <div>
@@ -924,13 +925,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -1001,13 +1002,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -1078,13 +1079,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -1155,13 +1156,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>
@@ -1232,13 +1233,13 @@ const index = () => {
                             style={{ width: 200 }}
                             className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                           >
-                            <a
+                           <Link
                               style={{ width: 100 }}
                               className="btn btn-primary btn-square"
-                              href="#"
+                              href="/doctorAppointment"
                             >
                               Book
-                            </a>
+                           </Link>
                           </div>
                         </div>
                         <div>

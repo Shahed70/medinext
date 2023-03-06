@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Slider from "react-slick";
 
 const PackageSlide = () => {
@@ -43,12 +44,12 @@ const PackageSlide = () => {
                 <span>24/7 Call Support</span>
                 <i className="fa fa-check text-primary pt-1" />
               </div>
-              <a
-                href="appointment.html"
+              <Link
+                href="/doctorAppointment"
                 className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
               >
                 Book Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -82,12 +83,12 @@ const PackageSlide = () => {
                 <span>24/7 Call Support</span>
                 <i className="fa fa-check text-primary pt-1" />
               </div>
-              <a
-                href="appointment.html"
+              <Link
+                href="/doctorAppointment"
                 className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
               >
                 Book Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -121,12 +122,12 @@ const PackageSlide = () => {
                 <span>24/7 Call Support</span>
                 <i className="fa fa-check text-primary pt-1" />
               </div>
-              <a
-                href="appointment.html"
+              <Link
+                href="/doctorAppointment"
                 className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
               >
                 Book Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

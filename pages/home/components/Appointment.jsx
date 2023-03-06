@@ -64,6 +64,7 @@ const Appointment = () => {
                     />
                   </div>
                   <div className="col-lg-12">
+                    
                     <button className="btn btn-dark w-100 py-2" type="submit">
                       Make Appointment
                     </button>

@@ -35,35 +35,35 @@ const NavBar = () => {
                 Department
              </Link> 
               <div className="dropdown-menu m-0">
-               <Link href="department.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Cardilogists Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-2.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Orthopaedics Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-3.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Gastroenlogy Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-4.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Neuroscien Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-5.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Spine Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-6.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Cancer Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-3.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Colorectal Depertment
                </Link> 
                 <hr />
-               <Link href="depertment-4.html" className="dropdown-item">
+               <Link href="/cardio-department" className="dropdown-item">
                   Bariatric Depertment
                </Link> 
               </div>
@@ -93,7 +93,7 @@ const NavBar = () => {
             <i className="fa fa-search" />
           </button>
           <Link
-            href="ambulance_service.html"
+            href="/ambulance"
             className="btn btn-primary py-2 px-4 ms-3"
           >
             Ambulance

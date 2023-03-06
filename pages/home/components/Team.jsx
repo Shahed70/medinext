@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import Team1 from "../../../public/asstes/images/team-1.jpg"
 import Team2 from "../../../public/asstes/images/team-2.jpg"
 import Team3 from "../../../public/asstes/images/team-3.jpg"
@@ -20,9 +21,9 @@ const Team = () => {
                   <h1 className="display-6 mb-4">
                     Meet Our Certified &amp; Experienced Doctors
                   </h1>
-                  <a href="doctors.html" className="btn btn-primary py-3 px-5">
+                  <Link href="doctors" className="btn btn-primary py-3 px-5">
                     View All
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -40,20 +41,20 @@ const Team = () => {
                       style={{ width: 300 }}
                       className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                     >
-                      <a
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square mx-1"
-                        href="doctors-appointment.html"
+                        href="/doctorAppointment"
                       >
                         Book
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square"
-                        href="./doctors-details.html"
+                        href="/doctors"
                       >
                         Details
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
@@ -77,20 +78,20 @@ const Team = () => {
                       style={{ width: 300 }}
                       className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                     >
-                      <a
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square mx-1"
-                        href="doctors-appointment.html"
+                        href="/doctorAppointment"
                       >
                         Book
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square"
-                        href="./doctors-details.html"
+                        href="/doctors"
                       >
                         Details
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
@@ -114,20 +115,20 @@ const Team = () => {
                       style={{ width: 300 }}
                       className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                     >
-                      <a
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square mx-1"
-                        href="doctors-appointment.html"
+                        href="/doctorAppointment"
                       >
                         Book
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square"
-                        href="./doctors-details.html"
+                        href="/doctors"
                       >
                         Details
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
@@ -151,20 +152,20 @@ const Team = () => {
                       style={{ width: 300 }}
                       className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                     >
-                      <a
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square mx-1"
-                        href="doctors-appointment.html"
+                        href="/doctorAppointment"
                       >
                         Book
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square"
-                        href="./doctors-details.html"
+                        href="/doctors"
                       >
                         Details
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
@@ -188,20 +189,20 @@ const Team = () => {
                       style={{ width: 300 }}
                       className="shadow p-3 mb-5 bg-body rounded position-absolute top-100 start-50 translate-middle bg-light rounded p-1 d-flex justify-content-center"
                     >
-                      <a
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square mx-1"
-                        href="doctors-appointment.html"
+                        href="/doctorAppointment"
                       >
                         Book
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         style={{ width: 100 }}
                         className="btn btn-primary btn-square"
-                        href="./doctors-details.html"
+                        href="/doctors"
                       >
                         Details
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">

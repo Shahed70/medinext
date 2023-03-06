@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../home.module.css"
 
 const Offer = () => {
@@ -18,15 +19,15 @@ const Offer = () => {
                     eos vero ea et dolore eirmod diam duo lorem magna sit dolore sed
                     et.
                   </p>
-                  <a
-                    href="appointment.html"
-                    className="btn btn-dark py-3 px-5 me-3"
-                  >
-                    Appointment
-                  </a>
-                  <a href="" className="btn btn-light py-3 px-5">
+                 <Link
+                href="/doctorAppointment"
+                className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
+              >
+                Book Now
+              </Link>
+                  <Link href="/doctors" className="btn btn-light py-3 px-5">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

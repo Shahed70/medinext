@@ -1,10 +1,11 @@
 import AllPageHero from "@/components/AllPageHero";
+import styles from "./ambulance.module.css"
 const about = () => {
   return (
     <>
       <AllPageHero home={"Home"} data={`Ambulance`} />
       {/* Ambulance Start */}
-      <div className="container-fluid bg-primary bg-appointment my-5">
+      <div className={`container-fluid bg-primary ${styles.bgAppointment } my-5`}>
         <div className="container">
           <div className="row gx-5">
             <div className="col-lg-6 py-5">
