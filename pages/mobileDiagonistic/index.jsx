@@ -1,6 +1,5 @@
 import AllPageHero from "@/components/AllPageHero";
-import Image from "next/image";
-import About1 from "../../public/asstes/images/about.jpg";
+
 const about = () => {
   return (
     <>
