@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Global.module.css"
 const AllPageHero = ({home, data}) => {
   return (
@@ -9,9 +10,9 @@ const AllPageHero = ({home, data}) => {
         <div className="row py-3">
           <div className="col-12 text-center">
             <h1 className="display-3 text-white animated zoomIn">{data}</h1>
-            <a href={home} className="h4 text-white">
+            <Link href="/" className="h4 text-white">
              {home}
-            </a>
+            </Link>
             <i className="far fa-circle text-white px-2" />
             <a href={data} className="h4 text-white">
               {data}
