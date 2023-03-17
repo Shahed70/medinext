@@ -118,9 +118,20 @@ h6,
   transition: .5s;
 }
 
+
 .sticky-top.navbar-light .navbar-nav .nav-link {
   padding: 20px 15px;
 }
+
+.fixed-nav{
+  top:0;
+  z-index: 999;
+  position: fixed; 
+  width: 100%; 
+  transition:  top .3s; /* Transition effect when sliding down (and up) */
+} 
+
+
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {

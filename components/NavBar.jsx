@@ -1,12 +1,28 @@
+
+
 import Link from "next/link";
+import {useEffect, useState } from "react";
 import NavSearch from "./NavSearch";
 
 const NavBar = () => {
+const [pageScroll, setPageScroll] = useState(false)
+
+   useEffect(() => {
+      const onScroll = () => {
+        if (window.scrollY > 100) {
+         setPageScroll(true)
+        } else{
+         setPageScroll(false)
+        }
+      }
+      window.addEventListener('scroll', onScroll)
+    }, [])
+  
     return (
         <div>
           <>
       {/* Navbar Start */}
-      <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+      <nav className={`navbar navbar-expand-lg bg-white navbar-light py-3 shadow-sm px-5 py-lg-0 ${pageScroll ? "fixed-nav":" "}`}>
        <Link href="/" className="navbar-brand p-0">
           <h1 className="m-0 text-primary">
             <i className="fa fa-tooth me-2" />

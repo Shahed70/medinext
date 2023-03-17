@@ -1,4 +1,5 @@
 import AllPageHero from "@/components/AllPageHero";
+import AppoinmentForm from "@/components/AppoinmentForm";
 
 const about = () => {
   return (
@@ -60,65 +61,8 @@ const about = () => {
                   </div>
                 </div>
                 <div className="col-lg-8">
-                  <div className="appointment-form h-100 p-5 ">
-                    <h1 className="text-white text-center mb-4">
-                      Mobile Diagonistic Appointment
-                    </h1>
-                    <form>
-                      <div className="row g-3">
-                        <div className="col-lg-12 col-sm-12">
-                          <input
-                            type="text"
-                            className="form-control bg-light border-0"
-                            placeholder="Your Name"
-                          />
-                        </div>
-                        <div className="col-lg-12 col-sm-12">
-                          <input
-                            type="text"
-                            className="form-control bg-light border-0"
-                            placeholder="Your Phone"
-                          />
-                        </div>
-                        <div className="col-lg-12 col-sm-12">
-                          <input
-                            type="date"
-                            className="form-control bg-light border-0"
-                          />
-                        </div>
-                        <div className="col-lg-12 col-sm-12">
-                          <input
-                            type="time"
-                            className="form-control bg-light border-0"
-                          />
-                        </div>
-                        <div className="col-lg-12 col-sm-12">
-                          <textarea
-                            className="form-control bg-light border-0"
-                            id="exampleFormControlTextarea1"
-                            rows={3}
-                            placeholder="Your Message"
-                            defaultValue={""}
-                          />
-                        </div>
-                        <div className="col-lg-12 col-sm-12">
-                          <input
-                            type="text"
-                            className="form-control bg-light border-0"
-                            placeholder="Your TRDX No."
-                          />
-                        </div>
-                        <div className="col-lg-12">
-                          <button
-                            className="btn btn-dark w-100 py-2"
-                            type="submit"
-                          >
-                            Make Appointment
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+                 
+                  <AppoinmentForm />
                 </div>
               </div>
             </div>

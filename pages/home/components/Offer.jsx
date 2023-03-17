@@ -21,7 +21,7 @@ const Offer = () => {
                   </p>
                  <Link
                 href="/doctorAppointment"
-                className="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
+                className="btn btn-light py-3 px-5 me-3"
               >
                 Book Now
               </Link>
